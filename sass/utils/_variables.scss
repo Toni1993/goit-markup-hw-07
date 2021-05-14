@@ -1,61 +1,15 @@
-
-      $accent-color-accent: #2196F3;
-      $title-text-color: #212121;
-      $main-text-color: #757575;
-      $main-font: 'Roboto', sans-serif;
-      $title-font: 'Raleway', sans-serif;
-      $background-color: #F5F4FA;
-      $background-color-light: #E5E5E5;
-      $background-color-dark: #2F303A;
-      $focus-color-text: #FFFFFF;
-      $address__text-link-color-footer: rgba(255, 255, 255, 0.6);
-      $border-color: #EEEEEE;
-      $border-color-header: #ECECEC;
-      $-color-icons: #AFB1B8;
-
-
-
-      body {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-}
-
-html {
-    box-sizing: border-box;
-}
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
-    margin: 0 auto;
-}
-*, *::after, *::before {
-    box-sizing: inherit;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-button {
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+:root {
+    --accent-color-accent: #2196F3;
+    --title-text-color: #212121;
+    --main-text-color: #757575;
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+    --background-color: #F5F4FA;
+    --background-color-light: #E5E5E5;
+    --background-color-dark: #2F303A;
+    --focus-color-text: #FFFFFF;
+    --address__text-link-color-footer: rgba(255, 255, 255, 0.6);
+    --border-color: #EEEEEE;
+    --border-color-header: #ECECEC;
+    --color-icons: #AFB1B8;
 }

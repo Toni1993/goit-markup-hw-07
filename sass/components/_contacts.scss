@@ -1,0 +1,31 @@
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacts__left {
+    margin-left: auto;
+}
+
+.contacts__item {
+    display: flex;
+    margin-left: 50px;
+}
+
+.contacts__icon-mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contacts__icon-tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.contacts-form {
+    margin-left: 94px;
+}

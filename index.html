@@ -12,36 +12,37 @@
         rel="stylesheet" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href=".//css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
-<header class="page-header">
-    <div class="container">
-        <nav class="nav ">
-            <a href="./index.html" class="logo">Web<span>Studio</span></a>
-            <ul class="nav__list nav__list--left">
-                <li><a href="./index.html" class="nav__item nav__item-bottom-border"><span>Студия</span></a></li>
-                <li><a href="./portfolio.html" class="nav__item ">Портфолио </a></li>
-                <li><a href="" class="nav__item">Контакты</a></li>
+    <header class="page-header">
+        <div class="container">
+            <nav class="nav ">
+                <a href="./index.html" class="logo">Web<span class="logo__black">Studio</span></a>
+                <ul class="nav__list nav__list--left">
+                    <li><a href="./index.html" class="nav__item nav__item-bottom-border"><span
+                                class="nav__link-accent">Студия</span></a></li>
+                    <li><a href="./portfolio.html" class="nav__item ">Портфолио </a></li>
+                    <li><a href="" class="nav__item">Контакты</a></li>
 
+                </ul>
+            </nav>
+            <ul class="contacts contacts__left">
+                <li class="contacts__item ">
+                    <a href="mailto:info@devstudio.com" class="link ">
+                        <svg class="contacts__icon-mail" width="16" height="12">
+                            <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                </li>
+                <li class="contacts__item "><a href="tel:+380961111111" class="link">
+                        <svg class="contacts__icon-tel" width="10" height="16">
+                            <use href="./images/icons/symbol-defs.svg#icon-tel"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contacts contacts__left">
-            <li class="contacts__item ">
-                <a href="mailto:info@devstudio.com" class="link ">
-                    <svg class="contacts__icon-mail" width="16" height="12">
-                        <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
-                    </svg>
-                    info@devstudio.com</a>
-            </li>
-            <li class="contacts__item "><a href="tel:+380961111111" class="link">
-                    <svg class="contacts__icon-tel" width="10" height="16">
-                        <use href="./images/icons/symbol-defs.svg#icon-tel"></use>
-                    </svg>+38 096 111 11 11</a></li>
-        </ul>
-    </div>
-</header>
+        </div>
+    </header>
     <main>
         <section class="section main">
             <div class="container main-backround">
@@ -305,7 +306,7 @@
     <footer class="footer">
         <div class="container footer-socials">
             <div>
-                <a href="./index.html" class="logo">Web<span>Studio</span></a>
+                <a href="./index.html" class="logo">Web<span class="logo-white">Studio</span></a>
                 <address class="address">
                     <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="address__list">
@@ -380,10 +381,12 @@
                         </svg></label> </div>
                 <div class="form__item"><label class="form__label">
                         Комментарий
-                        <textarea name="feedback" class="form__textarea" rows="5" placeholder="Введите текст"></textarea>
+                        <textarea name="feedback" class="form__textarea" rows="5"
+                            placeholder="Введите текст"></textarea>
                     </label></div>
                 <div class="form__item form__item-submit"> <input type="checkbox" name="checkbox" id="checkbox"
-                        class="form__checkbox-input visually-hidden"><label for="checkbox" class="form__label form__checkbox-label ">
+                        class="form__checkbox-input visually-hidden"><label for="checkbox"
+                        class="form__label form__checkbox-label ">
                     </label>
                     Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a>
 
